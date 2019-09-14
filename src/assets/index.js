@@ -1,0 +1,10 @@
+export {default as r2d2} from './r2d2.gif';
+export {default as logo} from './starwarslogo.png';
+import sw1 from '../../assets/starwarsi.jpg';
+import sw2 from '../../assets/starwarsii.jpg';
+import sw3 from '../../assets/starwarsiii.jpg';
+import sw4 from '../../assets/starwarsiv.jpg';
+import sw5 from '../../assets/starwarsv.jpg';
+import sw6 from '../../assets/starwarsvi.jpg';
+import sw7 from '../../assets/starwarsvii.jpg';
+export const banners = [sw1, sw2, sw3, sw4, sw5, sw6, sw7];
