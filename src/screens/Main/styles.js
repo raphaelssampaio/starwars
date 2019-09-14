@@ -14,14 +14,16 @@ export const StarWarsLogo = styled.Image.attrs({resizeMode: 'stretch'})`
 `;
 
 export const Card = styled.View`
+  flex: 1;
   background: #ddd;
   padding: 5px;
   width: 90%;
-  max-height: 500px;
+  height: 60%;
   flex-direction: row;
   border-radius: 10px;
   border-color: #ffe81f;
   border-width: 3px;
+  margin-bottom: 10px;
 `;
 export const ImageContainer = styled.View`
   margin: 5px;
@@ -46,7 +48,9 @@ export const MovieName = styled.Text`
   align-self: center;
 `;
 
-export const MovieDescription = styled.Text``;
+export const MovieDescription = styled.Text.attrs({
+  numberOfLines: 15,
+})``;
 
 export const LoadingView = styled.View``;
 
